@@ -12,49 +12,42 @@
               Padding="0">
 
             <Grid.RowDefinitions>
-
                 <RowDefinition Height="*"/>
-
                 <RowDefinition Height="*"/>
-
                 <RowDefinition Height="*"/>
-
             </Grid.RowDefinitions>
 
             <Grid.ColumnDefinitions>
-
                 <ColumnDefinition Width="*"/>
-
                 <ColumnDefinition Width="*"/>
-
             </Grid.ColumnDefinitions>
 
             <Button Text="{Binding TitleButtonLayouts}" 
-            Grid.Row="0"
-            Grid.Column="0"
-            Style="{StaticResource TileButton}"
-            Command="{Binding LayoutsClickedCommand}"/>
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    Style="{StaticResource TileButton}"
+                    Command="{Binding LayoutsClickedCommand}"/>
 
             <Button Text="{Binding TitleButtonImages}"
-            Grid.Row="0"
-            Grid.Column="1"
-            Style="{StaticResource TileButton}"/>
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    Style="{StaticResource TileButton}"/>
 
             <Button Text="{Binding TitleButtonCollections}"
-            Grid.Row="1"
-            Grid.Column="0"
-            Style="{StaticResource TileButton}"/>
+                    Grid.Row="1"
+                    Grid.Column="0"
+                    Style="{StaticResource TileButton}"/>
 
             <Button Text="{Binding TitleButtonControls}" 
-            Grid.Row="1"
-            Grid.Column="1"
-            Style="{StaticResource TileButton}"/>
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    Style="{StaticResource TileButton}"/>
 
             <Button Text="{Binding TitleButtonSQLLite}" 
-            Grid.Row="2"
-            Grid.Column="0"
-            Grid.ColumnSpan="2"
-            Style="{StaticResource TileButton}"/>
+                    Grid.Row="2"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="2"
+                    Style="{StaticResource TileButton}"/>
 
         </Grid>
 

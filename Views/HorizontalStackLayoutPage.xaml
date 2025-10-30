@@ -2,11 +2,33 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MyFirstMobileApp.Views.HorizontalStackLayoutPage"
-             Title="HorizontalStackLayoutPage">
+             Title="{Binding Title}">
+    
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <VerticalStackLayout HorizontalOptions="Start">
+            <BoxView WidthRequest="100"
+                     HeightRequest="100"
+                     Color="Red" />
+        </VerticalStackLayout>
+
+        <VerticalStackLayout HorizontalOptions="Center">
+            <BoxView WidthRequest="100"
+                     HeightRequest="100"
+                     Color="Green" />
+        </VerticalStackLayout>
+
+        <VerticalStackLayout HorizontalOptions="Start">
+            <BoxView WidthRequest="100"
+                     HeightRequest="100"
+                     Color="Blue" />
+        </VerticalStackLayout>
+
+        <VerticalStackLayout HorizontalOptions="End">
+            <BoxView WidthRequest="100"
+                     HeightRequest="100"
+                     Color="Purple" />
+        </VerticalStackLayout>
+
     </VerticalStackLayout>
+
 </ContentPage>

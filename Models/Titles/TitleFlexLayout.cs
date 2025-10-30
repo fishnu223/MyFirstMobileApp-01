@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace MyFirstMobileApp.Models.Titles
 {
-    internal class TitleFlexLayout
+   public static class TitleFlexLayout
     {
+         public static string Title { get; } = "Flex Layout";
     }
 }

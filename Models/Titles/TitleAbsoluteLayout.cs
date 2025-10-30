@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace MyFirstMobileApp.Models.Titles
 {
-    internal class TitleAbsoluteLayout
+    public static class TitleAbsoluteLayout
     {
+         public static string Title { get; } = "Absolute Layout";
     }
+
 }

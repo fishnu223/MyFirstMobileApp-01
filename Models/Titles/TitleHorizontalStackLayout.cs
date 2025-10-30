@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace MyFirstMobileApp.Models.Titles
 {
-    internal class TitleHorizontalStackLayout
+    public static class TitleHorizontalStackLayout
     {
+         public static string Title { get; } = "Horizontal Stack Layout";
     }
 }

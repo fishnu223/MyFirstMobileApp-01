@@ -34,27 +34,29 @@ namespace MyFirstMobileApp.ViewModels
         {
           
         }
+
+        [RelayCommand]
         private async Task StackLayoutClicked()
         {
-            await Shell.Current.GoToAsync(nameof(StackLayoutsPage));
+            await Shell.Current.GoToAsync(nameof(StackLayoutPage));
         }
 
-        
+        [RelayCommand]
         private async Task VerticalStackClicked()
         {
             await Shell.Current.GoToAsync(nameof(VerticalStackLayoutPage));
         }
-
+        [RelayCommand]
         private async Task HorizontalStackClicked()
         {
             await Shell.Current.GoToAsync(nameof(HorizontalStackLayoutPage));
         }
-
+        [RelayCommand]
         private async Task AbsoluteLayoutClicked()
         {
             await Shell.Current.GoToAsync(nameof(AbsoluteStackLayoutPage));
         }
-
+        [RelayCommand]
         private async Task FlexLayoutClicked()
         {
             await Shell.Current.GoToAsync(nameof(FlexLayoutPage));

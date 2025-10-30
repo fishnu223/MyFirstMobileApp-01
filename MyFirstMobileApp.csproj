@@ -69,9 +69,6 @@
 	  <Compile Update="Views\LayoutsPage.xaml.cs">
 	    <DependentUpon>LayoutsPage.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="Views\StackLayoutsPage.xaml.cs">
-	    <DependentUpon>StackLayoutsPage.xaml</DependentUpon>
-	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
@@ -99,7 +96,7 @@
 	  <MauiXaml Update="Views\LayoutsPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\StackLayoutsPage.xaml">
+	  <MauiXaml Update="Views\StackLayoutPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\VerticalStackLayoutPage.xaml">

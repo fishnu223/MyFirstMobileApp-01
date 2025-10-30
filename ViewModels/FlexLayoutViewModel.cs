@@ -1,4 +1,7 @@
-﻿using System;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+
+using MyFirstMobileApp.Models.Titles;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +9,15 @@ using System.Threading.Tasks;
 
 namespace MyFirstMobileApp.ViewModels
 {
-    internal class FlexLayoutViewModel
+   public partial class FlexLayoutViewModel : ObservableObject
     {
+        [ObservableProperty]
+        private string title = TitleFlexLayout.Title;
+
+        public FlexLayoutViewModel()
+        {
+
+        }
     }
-}
+} 
+

@@ -2,11 +2,11 @@ using MyFirstMobileApp.ViewModels;
 
 namespace MyFirstMobileApp.Views;
 
-public partial class StackLayoutsPage : ContentPage
+public partial class StackLayoutPage : ContentPage
 {
-	public StackLayoutsPage()
+	public StackLayoutPage()
 	{
 		InitializeComponent();
 		BindingContext = new StackLayoutViewModel();
-	}
+    }
 }
