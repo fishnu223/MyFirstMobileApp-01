@@ -8,5 +8,6 @@ public partial class LayoutsPage : ContentPage
 	{
 		InitializeComponent();
 		BindingContext = new LayoutsViewModel();
+
 	}
 }
