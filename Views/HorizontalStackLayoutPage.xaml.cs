@@ -10,5 +10,6 @@ public partial class HorizontalStackLayoutPage : ContentPage
 		BindingContext = new HorizontalStackLayoutViewModel();
 
 
+
 	}
 }
