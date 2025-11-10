@@ -10,7 +10,7 @@
                      HeightRequest="100"
                      Color="Red" />
         </VerticalStackLayout>
-
+        
         <VerticalStackLayout HorizontalOptions="Center">
             <BoxView WidthRequest="100"
                      HeightRequest="100"
