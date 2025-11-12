@@ -3,11 +3,49 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MyFirstMobileApp.Views.FlexLayoutPage"
              Title="{Binding Title}">
+
+    <FlexLayout Direction="Row" 
+                JustifyContent="SpaceEvenly" 
+                AlignItems="Center" 
+                BackgroundColor="White">
+
+        <VerticalStackLayout>
+            <BoxView Color="Red"
+                     WidthRequest="50"
+                     HeightRequest="50"/>
+
+            <Label Text="Red" 
+                   FontSize="12" 
+                   TextColor="Black"
+                   HorizontalTextAlignment="Start"/>
+
+        </VerticalStackLayout>
+
+        <VerticalStackLayout>
+            <BoxView Color="Green"
+                     WidthRequest="50"
+                     HeightRequest="50"/>
+
+            <Label Text="Green" 
+                   FontSize="12" 
+                   TextColor="Black"
+                   HorizontalTextAlignment="Start"/>
+
+
+        </VerticalStackLayout>
+
+        <VerticalStackLayout>
+            <BoxView Color="Blue"
+                     WidthRequest="50"
+                     HeightRequest="50"/>
+
+            <Label Text="Blue" 
+                   FontSize="12" 
+                   TextColor="Black"
+                   HorizontalTextAlignment="Start"/>
+
+        </VerticalStackLayout>
+
+    </FlexLayout>
     
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
 </ContentPage>
