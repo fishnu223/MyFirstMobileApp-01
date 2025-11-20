@@ -18,6 +18,10 @@ namespace MyFirstMobileApp
             Routing.RegisterRoute(nameof(HorizontalStackLayoutPage), typeof(HorizontalStackLayoutPage));
             Routing.RegisterRoute(nameof(FlexLayoutPage), typeof(FlexLayoutPage));
             Routing.RegisterRoute(nameof(AbsoluteStackLayoutPage), typeof(AbsoluteStackLayoutPage));
+            Routing.RegisterRoute(nameof(ImagesPage), typeof(ImagesPage));
+            Routing.RegisterRoute(nameof(EmbeddedImagesPage), typeof(EmbeddedImagesPage));
+            Routing.RegisterRoute(nameof(URIImagesPage), typeof(URIImagesPage));
+            Routing.RegisterRoute(nameof(ActivityIndicatorPage), typeof(ActivityIndicatorPage));
         }
     }
 }

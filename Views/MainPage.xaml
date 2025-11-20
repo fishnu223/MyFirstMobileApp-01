@@ -32,7 +32,8 @@
             <Button Text="{Binding TitleButtonImages}"
                     Grid.Row="0"
                     Grid.Column="1"
-                    Style="{StaticResource TileButton}"/>
+                    Style="{StaticResource TileButton}"
+                    Command="{Binding ImagesClickedCommand}"/>
 
             <Button Text="{Binding TitleButtonCollections}"
                     Grid.Row="1"
