@@ -1,19 +1,21 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+//using Windows.Media.AppBroadcasting;
+//using Windows.Media.Streaming.Adaptive;
 
 namespace MyFirstMobileApp.Models.Entities
 {
     public class MarvelMovies
     {
-
+        
         public string NameOfMovie { get; set; }
 
-        public MarvelMovies()
+        public MarvelMovies() 
         {
-
+        
         }
 
         public MarvelMovies(string name)

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MyFirstMobileApp.Models.Entities"
              x:Class="MyFirstMobileApp.Views.CollectionsMoviesImagesPage"
              Title="{Binding Title}">
-    
     <VerticalStackLayout Padding="20" Spacing="10">
 
         <CollectionView x:Name="ItemsListView"
@@ -43,7 +43,7 @@
 
                                 <HorizontalStackLayout Grid.Row="0">
 
-                                    <Label Text="{Binding NameofActor}"
+                                    <Label Text="{Binding NameOfActor}"
                                            HorizontalTextAlignment="Start"
                                            TextColor="Grey"
                                            FontSize="Small"
@@ -53,7 +53,7 @@
 
                                 <HorizontalStackLayout>
 
-                                    <Label Text="{Binding NameofCharacter}"
+                                    <Label Text="{Binding NameOfCharacter}"
                                            FontAttributes="Bold, Italic"
                                            HorizontalTextAlignment="Start"
                                            TextColor="Blue"

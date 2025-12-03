@@ -1,4 +1,4 @@
-﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using MyFirstMobileApp.Models.Titles;
 using System;
@@ -39,6 +39,6 @@ namespace MyFirstMobileApp.ViewModels
         {
             await Shell.Current.GoToAsync(nameof(Views.CollectionsMoviesImagesPage));
         }
-
+         
     }
 }

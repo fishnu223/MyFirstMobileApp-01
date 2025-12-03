@@ -12,16 +12,25 @@ namespace MyFirstMobileApp
 
         private void RegisterRoutes()
         {
+            // Layouts
             Routing.RegisterRoute(nameof(LayoutsPage), typeof(LayoutsPage));
             Routing.RegisterRoute(nameof(StackLayoutPage), typeof(StackLayoutPage));
             Routing.RegisterRoute(nameof(VerticalStackLayoutPage), typeof(VerticalStackLayoutPage));
             Routing.RegisterRoute(nameof(HorizontalStackLayoutPage), typeof(HorizontalStackLayoutPage));
             Routing.RegisterRoute(nameof(FlexLayoutPage), typeof(FlexLayoutPage));
             Routing.RegisterRoute(nameof(AbsoluteStackLayoutPage), typeof(AbsoluteStackLayoutPage));
+
+            // Images
             Routing.RegisterRoute(nameof(ImagesPage), typeof(ImagesPage));
             Routing.RegisterRoute(nameof(EmbeddedImagesPage), typeof(EmbeddedImagesPage));
             Routing.RegisterRoute(nameof(URIImagesPage), typeof(URIImagesPage));
             Routing.RegisterRoute(nameof(ActivityIndicatorPage), typeof(ActivityIndicatorPage));
+
+            // Collections
+            Routing.RegisterRoute(nameof(Views.CollectionsPage), typeof(Views.CollectionsPage));
+            Routing.RegisterRoute(nameof(Views.CollectionsMoviesPage), typeof(Views.CollectionsMoviesPage));
+            Routing.RegisterRoute(nameof(Views.CollectionsMoviesImagesPage), typeof(Views.CollectionsMoviesImagesPage));
+
         }
     }
 }
