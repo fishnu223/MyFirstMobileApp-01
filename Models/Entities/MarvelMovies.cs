@@ -11,7 +11,7 @@ namespace MyFirstMobileApp.Models.Entities
     public class MarvelMovies
     {
         
-        public string NameOfMovie { get; set; }
+        public string NameofMovie { get; set; }
 
         public MarvelMovies() 
         {
@@ -20,7 +20,7 @@ namespace MyFirstMobileApp.Models.Entities
 
         public MarvelMovies(string name)
         {
-            NameOfMovie = name;
+            NameofMovie = name;
         }
 
         public static List<MarvelMovies> GetMovies()

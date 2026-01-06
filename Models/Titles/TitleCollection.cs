@@ -18,7 +18,7 @@ namespace MyFirstMobileApp.Models.Titles
 
         public static string TitleButtonCollectionButton { get; } = "Collection w/Buttons";
 
-        public static string TitleButtonCollectionIcon { get; } = "Collection w/Icons";
+        public static string TitleButtonIconCollection { get; } = "Collection w/Icons";
 
     }
 }

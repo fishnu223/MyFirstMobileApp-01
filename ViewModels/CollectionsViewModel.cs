@@ -12,16 +12,23 @@ namespace MyFirstMobileApp.ViewModels
     public partial class CollectionsViewModel : ObservableObject
     {
         [ObservableProperty]
+        private string title = TitleCollection.Title;
+
+        [ObservableProperty]
         private string titleButtonCollection = TitleCollection.TitleButtonCollection;
 
         [ObservableProperty]
         private string titleButtonCollectionImage = TitleCollection.TitleButtonCollectionImage;
 
         [ObservableProperty]
-        private string titleButtonCollectionButton = TitleCollection.TitleButtonCollectionButton;
+        private string titleButtonIconCollection = TitleCollection.TitleButtonIconCollection;
 
         [ObservableProperty]
-        private string titleButtonCollectionIcon = TitleCollection.TitleButtonCollectionIcon;
+        private string titleButtonCollectionButton = TitleCollection.TitleButtonCollectionButton;
+
+
+        
+
 
         public CollectionsViewModel()
         {
@@ -39,6 +46,12 @@ namespace MyFirstMobileApp.ViewModels
         {
             await Shell.Current.GoToAsync(nameof(Views.CollectionsMoviesImagesPage));
         }
-         
+        [RelayCommand]
+        private async Task IconsClicked()
+        {
+            await Shell.Current.GoToAsync(nameof(Views.CollectionsIconsPage));
+        }
+
+
     }
 }

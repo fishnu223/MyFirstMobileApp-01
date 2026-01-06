@@ -34,7 +34,7 @@ namespace MyFirstMobileApp.ViewModels
                 {
                     MarvelMoviesCollection.Add(new MarvelMovies
                     {
-                        NameOfMovie = p.NameOfMovie,
+                        NameofMovie = p.NameofMovie,
                     });
                 }
             }

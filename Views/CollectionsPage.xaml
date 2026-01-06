@@ -14,6 +14,8 @@
                 <RowDefinition Height="*" />
                 <RowDefinition Height="*" />
                 <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
             </Grid.RowDefinitions>
 
             <Grid.ColumnDefinitions>
@@ -29,15 +31,20 @@
             <Button Grid.Row="1"
                     Grid.Column="0"
                     Text="{Binding TitleButtonCollectionButton}" 
-                    Style="{StaticResource TileButton}"/>
+                    Style="{StaticResource TileButton}"
+                    Command="{Binding CollectionsButtonsClickedCommand}"/>
 
             <Button Grid.Row="2"
                     Grid.Column="0"
-                    Text="{Binding TitleButtonCollectionIcon}" 
-                    Style="{StaticResource TileButton}"/>
+                    Text="{Binding TitleButtonIconCollection}" 
+                    Style="{StaticResource TileButton}"
+                    Command="{Binding IconsClickedCommand}"/>
+
+            
 
         </Grid>
 
     </VerticalStackLayout>
+
 
 </ContentPage>

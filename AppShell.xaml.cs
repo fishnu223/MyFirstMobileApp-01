@@ -27,10 +27,12 @@ namespace MyFirstMobileApp
             Routing.RegisterRoute(nameof(ActivityIndicatorPage), typeof(ActivityIndicatorPage));
 
             // Collections
-            Routing.RegisterRoute(nameof(Views.CollectionsPage), typeof(Views.CollectionsPage));
-            Routing.RegisterRoute(nameof(Views.CollectionsMoviesPage), typeof(Views.CollectionsMoviesPage));
-            Routing.RegisterRoute(nameof(Views.CollectionsMoviesImagesPage), typeof(Views.CollectionsMoviesImagesPage));
-
+            Routing.RegisterRoute(nameof(CollectionsPage), typeof(CollectionsPage));
+            Routing.RegisterRoute(nameof(CollectionsMoviesPage), typeof(CollectionsMoviesPage));
+            Routing.RegisterRoute(nameof(CollectionsMoviesImagesPage), typeof(CollectionsMoviesImagesPage));
+            Routing.RegisterRoute(nameof(CollectionsAddPage), typeof(CollectionsAddPage));
+            Routing.RegisterRoute(nameof(CollectionsEditPage), typeof(CollectionsEditPage));
+            Routing.RegisterRoute(nameof(UpdateableCollectionWButtonsPage), typeof(UpdateableCollectionWButtonsPage));
         }
     }
 }

@@ -38,7 +38,7 @@
                         </Grid.RowDefinitions>
 
                         <HorizontalStackLayout>
-                            <Label Text="{Binding NameOfMovie}"
+                            <Label Text="{Binding NameofMovie}"
                                    FontAttributes="Bold"
                                    HorizontalTextAlignment="Start"
                                    TextColor="Black"
