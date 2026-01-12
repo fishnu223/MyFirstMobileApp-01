@@ -47,5 +47,11 @@ namespace MyFirstMobileApp.ViewModels
         {
             await Shell.Current.GoToAsync(nameof(ImagesPage));
         }
+
+        [RelayCommand]
+        public async Task ControlsClicked()
+        {
+            await Shell.Current.GoToAsync(nameof(ControlsPage));
+        }
     }
 }
