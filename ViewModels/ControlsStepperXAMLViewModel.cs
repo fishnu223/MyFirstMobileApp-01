@@ -9,8 +9,9 @@ using System.Threading.Tasks;
 
 namespace MyFirstMobileApp.ViewModels
 {
-    public partial class ControlsSliderXAMLViewModel : ObservableObject
+    public partial class ControlsStepperXAMLViewModel : ObservableObject
     {
-        public string Title => TitleControls.SliderXAMLTitle;
+        public string Title => TitleControls.StepperXAMLTitle;
+
     }
 }

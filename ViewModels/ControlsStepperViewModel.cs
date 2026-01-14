@@ -2,6 +2,7 @@
 using CommunityToolkit.Mvvm.Input;
 using MyFirstMobileApp.Models.Titles;
 using MyFirstMobileApp.Views;
+using MyFirstMobileApp.Models.Titles;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,9 +13,9 @@ namespace MyFirstMobileApp.ViewModels
 {
     public partial class ControlsStepperViewModel : ObservableObject
     {
-        public string Title => TitleControlsStepper.Title;
-        public string StepperXAML => TitleControlsStepper.StepperXAML;
-        public string StepperVM => TitleControlsStepper.StepperVM;
+        public string Title => TitleControls.StepperMenuTitle;
+        public string StepperXAML => TitleControls.StepperXAML;
+        public string StepperVM => TitleControls.StepperVM;
 
         [RelayCommand]
         private async Task StepperXAMLClicked()
