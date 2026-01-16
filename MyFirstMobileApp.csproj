@@ -57,6 +57,21 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <AndroidResource Remove="Models\Entities\**" />
+	  <AndroidResource Remove="Models\Messages\**" />
+	  <Compile Remove="Models\Entities\**" />
+	  <Compile Remove="Models\Messages\**" />
+	  <EmbeddedResource Remove="Models\Entities\**" />
+	  <EmbeddedResource Remove="Models\Messages\**" />
+	  <MauiCss Remove="Models\Entities\**" />
+	  <MauiCss Remove="Models\Messages\**" />
+	  <MauiXaml Remove="Models\Entities\**" />
+	  <MauiXaml Remove="Models\Messages\**" />
+	  <None Remove="Models\Entities\**" />
+	  <None Remove="Models\Messages\**" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="CommunityToolkit.Maui" Version="5.0.0" />
 		<PackageReference Include="CommunityToolkit.Maui.Core" Version="5.0.0" />
 		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
@@ -120,11 +135,6 @@
 	  <MauiXaml Update="Views\VerticalStackLayoutPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Folder Include="Models\Entities\" />
-	  <Folder Include="Models\Messages\" />
 	</ItemGroup>
 
 </Project>

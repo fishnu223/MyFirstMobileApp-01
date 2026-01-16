@@ -28,7 +28,9 @@ namespace MyFirstMobileApp
 
             //Controls
             Routing.RegisterRoute(nameof(ControlsPage), typeof(ControlsPage));
-            Routing.RegisterRoute(nameof(ControlsSwitchPage), typeof(ControlsSwitchPage));
+            Routing.RegisterRoute(nameof(ControlsSwitchPage), typeof(ControlsSwitchPage)); 
+            Routing.RegisterRoute(nameof(ControlsSwitchVMPage), typeof(ControlsSwitchVMPage));
+            Routing.RegisterRoute(nameof(ControlsSwitchXAMLPage), typeof(ControlsSwitchXAMLPage));
             Routing.RegisterRoute(nameof(ControlsSliderPage), typeof(ControlsSliderPage));
             Routing.RegisterRoute(nameof(ControlsSliderVMPage), typeof(ControlsSliderVMPage));
             Routing.RegisterRoute(nameof(ControlsSliderXAMLPage), typeof(ControlsSliderXAMLPage));
