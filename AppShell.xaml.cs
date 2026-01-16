@@ -38,6 +38,8 @@ namespace MyFirstMobileApp
             Routing.RegisterRoute(nameof(ControlsStepperXAMLPage), typeof(ControlsStepperXAMLPage));
             Routing.RegisterRoute(nameof(ControlsStepperVMPage), typeof(ControlsStepperVMPage));
             Routing.RegisterRoute(nameof(ControlsEntryPage), typeof(ControlsEntryPage));
+            Routing.RegisterRoute(nameof(ControlsEntryVMPage), typeof(ControlsEntryVMPage));
+            Routing.RegisterRoute(nameof(ControlsEntryXAMLPage), typeof(ControlsEntryXAMLPage));
             Routing.RegisterRoute(nameof(ControlsPickerPage), typeof(ControlsPickerPage));
             Routing.RegisterRoute(nameof(ControlsDateandTimePage), typeof(ControlsDateandTimePage));
 
