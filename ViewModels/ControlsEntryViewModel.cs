@@ -13,8 +13,8 @@ namespace MyFirstMobileApp.ViewModels
     public partial class ControlsEntryViewModel : ObservableObject
     {
         public string Title => TitleControls.EntryMenuTitle;
-        public string EntryXAML => TitleControls.EntryXAML;
-        public string EntryVM => TitleControls.EntryVM;
+        public string EntryXAML => TitleControls.EntryXAMLTitle;
+        public string EntryVM => TitleControls.EntryVMTitle;
 
         [RelayCommand]
         private async Task EntryXAMLClicked()

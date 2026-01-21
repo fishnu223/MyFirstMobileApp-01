@@ -1,6 +1,5 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using MyFirstMobileApp.Models.Titles;
 using MyFirstMobileApp.Views;
 using MyFirstMobileApp.Models.Titles;
 using System;

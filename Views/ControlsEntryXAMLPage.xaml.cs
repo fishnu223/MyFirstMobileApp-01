@@ -2,8 +2,9 @@ namespace MyFirstMobileApp.Views;
 
 public partial class ControlsEntryXAMLPage : ContentPage
 {
-	public ControlsEntryXAMLPage()
-	{
-		InitializeComponent();
-	}
+
+    public ControlsEntryXAMLPage()
+    {
+        InitializeComponent();
+    }
 }
